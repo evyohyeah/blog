@@ -1,12 +1,5 @@
 [
 	{
-		"name": "阮一峰的网络日志",
-		"avatar": "/images/blogger/fe25259da8e3609b.png",
-		"url": "https://www.ruanyifeng.com/blog/archives.html",
-		"description": "经典必看，每周更新。无聊是看新闻、还是学习、还是拓展眼界，都是能其中获取到乐趣的。还有很多网友的每周留言。这就是 blog 的含金量。",
-		"stars": 5
-	},
-	{
 		"name": "Enji Kusnadi",
 		"url": "https://enji.dev/",
 		"avatar": "https://enji.dev/_next/image?url=%2Fassets%2Fimages%2Fme.png&w=1080&q=100",
@@ -18,7 +11,7 @@
 		"name": "Josh W. Comeau",
 		"url": "https://www.joshwcomeau.com/",
 		"avatar": "https://www.joshwcomeau.com/favicon.png",
-		"description": "John blog 更像是一个课程网站，每一篇文章都书写的很好，每次阅读都能吸收到新的东西。网站设计也恰到好处，工整、有趣。",
+		"description": "前端網站教學",
 		"stars": 5
 	},
 	{
