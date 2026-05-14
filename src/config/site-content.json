@@ -1,7 +1,7 @@
 {
 	"meta": {
-		"title": "酣然夢土",
-		"description": "Sweet Dreams",
+		"title": "YYsuni",
+		"description": "YYsuni 的个人博客，记录前端开发、探索、笔记。前端 UI 更新代码仓库。",
 		"username": "Evy"
 	},
 	"theme": {
@@ -31,9 +31,13 @@
 		{
 			"id": "1c7b726fe720679b",
 			"url": "/images/art/1c7b726fe720679b.jpg"
+		},
+		{
+			"id": "d772b1884f864e5c",
+			"url": "/images/art/d772b1884f864e5c.jpg"
 		}
 	],
-	"currentArtImageId": "1c7b726fe720679b",
+	"currentArtImageId": "d772b1884f864e5c",
 	"backgroundImages": [
 		{
 			"id": "",
@@ -43,23 +47,16 @@
 	"currentBackgroundImageId": "",
 	"socialButtons": [
 		{
-			"id": "github",
-			"type": "github",
-			"value": "https://github.com/yysuni",
-			"label": "Github",
-			"order": 3
-		},
-		{
 			"id": "juejin",
-			"type": "juejin",
-			"value": "https://juejin.cn/user/2427311675422382",
-			"label": "稀土掘金",
+			"type": "link",
+			"value": "https://www.plurk.com/evy0705",
+			"label": "噗浪",
 			"order": 2
 		},
 		{
 			"id": "email",
 			"type": "email",
-			"value": "yysuni1001@gmail.com",
+			"value": "evyohyeah@gmail.com",
 			"label": "",
 			"order": 1
 		}
