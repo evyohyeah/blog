@@ -23,7 +23,7 @@ export function ArtImagesSection({ formData, setFormData, artImageUploads, setAr
 
 		for (const file of files) {
 			if (!file.type.startsWith('image/')) {
-				toast.error('请选择图片文件')
+				toast.error('請選擇圖片文件')
 				continue
 			}
 
@@ -56,7 +56,7 @@ export function ArtImagesSection({ formData, setFormData, artImageUploads, setAr
 
 	const handleArtUrlSubmit = () => {
 		if (!artUrlInput.trim()) {
-			toast.error('请输入图片 URL')
+			toast.error('請輸入圖片 URL')
 			return
 		}
 
@@ -107,9 +107,9 @@ export function ArtImagesSection({ formData, setFormData, artImageUploads, setAr
 
 	return (
 		<div>
-			<label className='mb-2 block text-sm font-medium'>首页图片</label>
+			<label className='mb-2 block text-sm font-medium'>首頁圖片</label>
 			<input ref={artInputRef} type='file' accept='image/*' multiple className='hidden' onChange={handleArtFilesSelect} />
-			{(formData.artImages?.length ?? 0) === 0 && <p className='mb-2 text-xs text-gray-500'>暂未配置 Art 图片，点击下方「+」添加。</p>}
+			{(formData.artImages?.length ?? 0) === 0 && <p className='mb-2 text-xs text-gray-500'>暫未配置 Art 圖片，點擊下方「+」添加。</p>}
 			<div className='grid grid-cols-4 gap-3 max-sm:grid-cols-3'>
 				{formData.artImages?.map(item => {
 					const isActive = formData.currentArtImageId === item.id
@@ -127,13 +127,13 @@ export function ArtImagesSection({ formData, setFormData, artImageUploads, setAr
 								<img src={src} alt='art preview' className='h-24 w-full object-cover' />
 							</button>
 							{isActive && (
-								<span className='bg-brand pointer-events-none absolute top-1 left-1 rounded-full px-2 py-0.5 text-[10px] text-white shadow'>当前使用</span>
+								<span className='bg-brand pointer-events-none absolute top-1 left-1 rounded-full px-2 py-0.5 text-[10px] text-white shadow'>當前使用</span>
 							)}
 							<button
 								type='button'
 								onClick={() => handleRemoveArtImage(item.id)}
 								className='text-secondary absolute top-1 right-1 hidden rounded-full bg-white/90 px-1.5 py-0.5 text-[10px] shadow group-hover:block'>
-								删除
+								刪除
 							</button>
 						</div>
 					)
@@ -158,7 +158,7 @@ export function ArtImagesSection({ formData, setFormData, artImageUploads, setAr
 							handleArtUrlSubmit()
 						}
 					}}
-					placeholder='输入图片 URL'
+					placeholder='輸入圖片 URL'
 					className='bg-secondary/10 flex-1 rounded-lg border px-3 py-1.5 text-xs'
 				/>
 				<button type='button' onClick={handleArtUrlSubmit} className='bg-card rounded-lg border px-3 py-1.5 text-xs font-medium'>
