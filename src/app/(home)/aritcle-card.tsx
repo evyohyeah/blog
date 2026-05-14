@@ -36,7 +36,7 @@ export default function ArticleCard() {
 
 				{loading ? (
 					<div className='flex h-[60px] items-center justify-center'>
-						<span className='text-secondary text-xs'>加载中...</span>
+						<span className='text-secondary text-xs'>加載中...</span>
 					</div>
 				) : blog ? (
 					<Link href={`/blog/${blog.slug}`} className='flex transition-opacity hover:opacity-80'>
@@ -53,7 +53,7 @@ export default function ArticleCard() {
 					</Link>
 				) : (
 					<div className='flex h-[60px] items-center justify-center'>
-						<span className='text-secondary text-xs'>暂无文章</span>
+						<span className='text-secondary text-xs'>暫無文章</span>
 					</div>
 				)}
 			</Card>
