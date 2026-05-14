@@ -29,12 +29,12 @@ export default function Home() {
 
 	const handleSave = () => {
 		saveEditing()
-		toast.success('首页布局偏移已保存（尚未提交到远程配置）')
+		toast.success('首頁布局偏移已保存（尚未提交到遠程配置）')
 	}
 
 	const handleCancel = () => {
 		cancelEditing()
-		toast.info('已取消此次拖拽布局修改')
+		toast.info('已取消此次拖曳布局修改')
 	}
 
 	useEffect(() => {
@@ -58,7 +58,7 @@ export default function Home() {
 			{editing && (
 				<div className='pointer-events-none fixed inset-x-0 top-0 z-50 flex justify-center pt-6'>
 					<div className='pointer-events-auto flex items-center gap-3 rounded-2xl bg-white/80 px-4 py-2 shadow-lg backdrop-blur'>
-						<span className='text-xs text-gray-600'>正在编辑首页布局，拖拽卡片调整位置</span>
+						<span className='text-xs text-gray-600'>正在編輯首頁布局，拖曳卡片調整位置</span>
 						<div className='flex gap-2'>
 							<motion.button
 								type='button'
